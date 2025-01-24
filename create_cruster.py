@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def create_cluster(min, max, cen_num, pnt_num):
+def create_cluster(min: float, max: float, cen_num: int, pnt_num: int) -> np.array:
     centroids = np.random.uniform(min, max, size=(cen_num, 2))
     
     pnt_per_cluster = pnt_num // cen_num
