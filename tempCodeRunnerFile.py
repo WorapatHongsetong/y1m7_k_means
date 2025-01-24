@@ -1,2 +1,2 @@
-
-        # Stack all points for this center
+plt.scatter(clusters[:, 0], clusters[:, 1])
+    # plt.show()
